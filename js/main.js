@@ -210,7 +210,7 @@ addMarkersToMap = (restaurants = self.restaurants) => {
   });
 } */
 if('serviceWorker' in navigator){
-    navigator.serviceWorker.register('/js/serWor.js').catch(function(err){
+    navigator.serviceWorker.register('/serWor.js').catch(function(err){
         console.error(err);
     });
 }
